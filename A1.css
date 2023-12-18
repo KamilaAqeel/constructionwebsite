@@ -1,0 +1,525 @@
+/*Global settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: unset;
+}
+
+/*Main Styling*/
+.maincontainer {
+    font-family: "Times New Roman";
+}
+
+/*Nav BarStyling*/
+.nav {
+    max-width: 80%;
+    margin: 0px auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.mynavUl {
+    display: flex;
+    align-items: center;
+}
+
+.mynavUl>li {
+    margin-right: 10px;
+}
+
+.mynavUl>li>a {
+    color: white;
+}
+
+.mynavUl>li>a :hover {
+    color: black;
+}
+
+.mylink:hover {
+    color: rgb(244, 174, 41);
+    transition: all 1s ease;
+}
+
+/*Section 1 Styling*/
+.sectionone {
+    background-image: url(./img\ 0.avif);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.sect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 450px;
+}
+
+/*Section 1 (Div 1)*/
+.secone {
+    line-height: 50px;
+    padding-right: 200px;
+}
+
+.secone>h3 {
+    color: rgb(244, 174, 41);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.secone>h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.secone>p {
+    line-height: 25px;
+    font-weight: bold;
+    color: white;
+}
+.border {
+    width: 50px;
+    height: 3px;
+    background-color: rgb(244, 174, 41);
+    margin: 20px 0px;
+}
+.btnone,
+.btnthree,
+.btnfour {
+    background-color: rgb(244, 174, 41);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.btntwo {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.btntwo:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid gainsboro;
+}
+
+/*Section 1 (Div 2)*/
+.img2 {
+    height: 550px;
+    padding-top: 100px;
+    /*border: 1px solid black;*/
+}
+
+
+
+/*Section 2 Styling*/
+.sectiontwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    max-width: 80%;
+    margin: 10px auto;
+    gap: 50px;
+}
+.childone>h3 {
+    color: rgb(244, 174, 41);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.childone>p {
+    font-style: italic;
+    font-size: 28px;
+    color: rgb(163, 161, 161);
+}
+.childone>h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+.childone>p {
+    margin-top: 10px;
+}
+.paragraphone,
+.paragraphtwo {
+    line-height: 28px;
+}
+.paragraphone {
+    margin-bottom: 30px;
+}
+
+
+/*Section 3 Styling*/
+.sectionthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(44, 44, 44);
+    margin-bottom: 50px;
+    
+}
+/*Section 3 (Div 1)*/
+.itemone>h3 {
+    color: rgb(244, 174, 41);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.itemone>h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+/*Section 3 (Div 2)*/
+.itemtwo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.itemtwo>img {
+    height: 300px;
+    width: 100%;
+}
+
+
+
+/*Section 4 Styling*/
+.sectionfour {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    /*border: 1px solid black;*/
+    /*text-align: center;*/
+}
+/*Section 4 (Div 1)*/
+.rootone {
+    width: 50%;
+    /*border: 1px solid blue;*/
+}
+.img11{
+    margin: 50px;
+    /*border: 1px solid blue;*/
+}
+/*Section 4 (Div 2)*/
+.roottwo {
+    width: 50%;
+    /*border: 1px solid blue;*/
+    line-height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+.roottwo > h3{
+    color: rgb(244, 174, 41);
+    font-size: 30px;
+}
+.roottwo > h1{
+    font-size: 40px;
+}
+.roottwo > p{
+    line-height: 28px; 
+    /*text-align: center;*/
+}
+
+
+/*Section 5 Styling*/
+.sectionfive {
+    margin-bottom: 100px;
+}
+/*Section 5 (Div 1)*/
+.divone {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.divone>h3 {
+    color: rgb(244, 174, 41);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.divone>h1 {
+    padding-bottom: 30px;
+}
+/*Section 5 (Div 2)*/
+.divtwo {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    margin: 0px 50px;
+}
+.iconandcontextContainerone,
+.iconandcontextContainertwo,
+.iconandcontextContainerthree,
+.iconandcontextContainerfour {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 15px;
+}
+.fa-pencil-square-o,
+.fa-institution,
+.fa-image,
+.fa-thumbs-o-up {
+    border-radius: 40%;
+    background-color: rgb(244, 174, 41);
+    color: white;
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+.icondiv {
+    padding: 30px 0;
+}
+.contextCotainer>h2 {
+    padding-bottom: 10px;
+}
+.contextCotainer>p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+
+/*Section 6 Styling*/
+.sectionsix{
+    /*border: 1px solid black;*/
+    width: 100%;
+    background-color: #f7f5fe;
+    padding: 30px;
+}
+.formcontainer > h1{
+    text-align: center;
+    font-size: 30px;
+}
+/*How to center form container*/
+.formcontainer{
+    margin: 10px auto;
+    line-height: 30px;
+    max-width: 350px;
+    width: 100%;
+    padding: 10px;
+}
+.formcontainer>label{
+    font-size:20px ;
+}
+.formInputItem{
+   margin-bottom: 15px; 
+}
+.formInputItem > input{
+    padding-right: 70px;
+    padding-top: 10px;
+    border: 1px solid gainsboro;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 5px; 
+}
+.formcontainer > textarea{
+    border: 1px solid gainsboro;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+.accpetCotainer{
+    display: flex;
+    align-items: center;
+}
+.accpetCotainer > input{
+    margin-right: 10px;
+}
+.accpetCotainer > p{
+    font-size: 14px;
+}
+.message{
+    padding: 10px 10px;
+}
+.button{
+    padding: 10px 82px;
+    background-color: rgb(244, 174, 41);
+    color: white;
+    margin-top: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: rgb(244, 174, 41);
+}
+
+
+/*Section 7 Styling*/
+/*Section 7 (Div 1)*/
+.footerone {
+    background-color: rgb(244, 174, 41);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footone {
+    width: 50%;
+    /* border: 1px solid black;*/
+    color: white;
+    font-size: 20px;
+    padding-left: 100px;
+}
+.foottwo {
+    width: 50%;
+    /* border: 1px solid black;*/
+}
+/*Section 7 (Div 2)*/
+.footertwo {
+    background-color: rgb(51, 51, 51);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footertwo>a {
+    color: rgb(244, 174, 41);
+}
+.footertwo>p {
+    color: white;
+}
+.btnfive {
+    color: white;
+    background-color: rgb(244, 174, 41);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.btnfive:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid gainsboro;
+}
+
+
+
+
+
+/* For Large Break Points */
+
+@media only screen and (max-width: 1300px) {
+    .sectwo{
+        display: none;
+        width: 100%;
+        padding: 100px;
+        height: 100%;
+
+    }
+    .itemtwo{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .divtwo{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footerone{
+        flex-direction: column;
+        padding-left: 0;
+        gap: 40px;
+        align-items: center;
+        /*border: 1px solid black;*/
+    }
+    .footone{
+        width: 100%;
+       /* border: 1px solid black;*/
+        text-align: center;
+    }
+    .foottwo{
+        width: 100%;
+        /*border: 1px solid black;*/
+        text-align: center;
+    }
+    .btnfive{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 1078px)
+{
+    .sectionfour{
+        flex-direction: column;
+        padding: 0 50px;
+        }
+    .rootone{
+        width: 100%;
+    }
+    .roottwo{
+        width: 100%;
+        /*border: 1px solid black;*/
+    }
+}
+
+/* For Laptops  */
+@media only screen and (max-width: 978px) {
+    .itemtwo{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sectiontwo{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .divtwo{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* For Tablets */
+@media only screen and (max-width: 786px) {
+    .itemtwo{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+/* For Mobile devices */
+@media only screen and (max-width: 586px) {
+    .divtwo{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
